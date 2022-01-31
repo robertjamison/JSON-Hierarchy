@@ -35,4 +35,4 @@ outfile.write(handler.results)
 outfile.close()
 ```
 ## Examples
-Here is an example [input file](https://google.com) from [Merriam-Webster's Dictionary API](https://www.dictionaryapi.com/products/json) and the resulting [output file](https://google.com).
+Here is an example [input file](/examples/example_input.json) from [Merriam-Webster's Dictionary API](https://www.dictionaryapi.com/products/json) and the resulting [output file](/examples/example_output.json).
