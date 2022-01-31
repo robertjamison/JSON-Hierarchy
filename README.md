@@ -32,6 +32,7 @@ handler.results
 # Or you can save your results
 outfile = open("output.json", "w")
 outfile.write(handler.results)
+outfile.close()
 ```
 ## Examples
 Here is an example [input file](https://google.com) from [Merriam-Webster's Dictionary API](https://www.dictionaryapi.com/products/json) and the resulting [output file](https://google.com).
