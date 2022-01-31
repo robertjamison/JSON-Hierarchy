@@ -9,8 +9,9 @@ pip3 install json4tree
 You can also download and install the package directly from [PyPi](https://pypi.org/project/json4tree/0.1.5/).
 ## Usage
 If your `Python3` library is included in your path, try running `json4tree` directly from the command line:
+_Note: The long name is a workaround until a bug with the `__main__` script is fixed_
 ```bash
-python3 json4tree input.json output.json
+python3 json4tree/__init__.py input.json output.json
 ```
 Otherwise, you can import it as a module in your `Python3` script:
 ```python
