@@ -1,5 +1,5 @@
 # json4tree
-Makes any JSON compatible with D3's hierarchy or tree chart formats (see https://d3js.org)
+Makes any JSON compatible with [D3's hierarchy or tree chart formats](https://d3js.org).
 
 ## Installation
 Since this tool is exclusively `Python3`, you'll need `pip3` to install:
