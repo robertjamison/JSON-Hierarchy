@@ -6,7 +6,7 @@ Since this tool is exclusively `Python3`, you'll need `pip3` to install:
 ```
 pip3 install json4tree
 ```
-You can also download and install the package directly from [PyPi](https://pypi.org/project/json4tree/0.1.5/).
+You can also download and install the package directly from [PyPi](https://pypi.org/project/json4tree/).
 ## Usage
 If your `Python3` library is included in your path, try running `json4tree` directly from the command line:
 
@@ -15,9 +15,9 @@ If your `Python3` library is included in your path, try running `json4tree` dire
 json4tree input.json output.json
 
 # otherwise, use this one:
-python3 json4tree input.json output.json
+python3 -m json4tree input.json output.json
 ```
-If you need to import it as a module in your `Python3` script, do it like so:
+If you need to import it as a module in your `Python3` script, do it [like so](https://raw.githubusercontent.com/robertjamison/json4tree/main/samples/example.py):
 ```python
 # import the necessary modules
 import json
@@ -40,4 +40,4 @@ outfile.write(converter.results)
 outfile.close()
 ```
 ## Examples
-Here is an example [input file](https://github.com/robertjamison/json4tree/sample/input.json) from [Merriam-Webster's Dictionary API](https://www.dictionaryapi.com/products/json) and the resulting [output file](https://github.com/robertjamison/json4tree/sample/output.json).
+Here is an example [input file](https://raw.githubusercontent.com/robertjamison/json4tree/main/samples/input.json) from [Merriam-Webster's Dictionary API](https://www.dictionaryapi.com/products/json) and the resulting [output file](https://raw.githubusercontent.com/robertjamison/json4tree/main/samples/output.json).
